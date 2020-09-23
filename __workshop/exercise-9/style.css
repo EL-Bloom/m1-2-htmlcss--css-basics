@@ -1,15 +1,30 @@
 img {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .img1 {
+  z-index:1;
+  position: absolute;
+  
 }
 
 .img2 {
+ left: 0px;
+
 }
 
 .img3 {
+  position: relative;
+background-color: gold;
+top: 250px;
+left: 150px;
+
+
+ 
 }
 
 .img4 {
+  float:right;
+  position: relative;
+  top: 400px;
 }
